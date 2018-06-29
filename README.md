@@ -4,9 +4,6 @@
 - Navigate to your Homestead directory, for me that's `~/Homestead`.
 - Install NFS for vagrant: `vagrant plugin install vagrant-winnfsd`
 - SSH into the VM: `vagrant ssh`
-- Open NGINX config: `sudo nano /etc/nginx/nginx.conf`
-- Within the config file, find `sendfile`, turn it off
-- Restart NGINX: `sudo service nginx restart`
 - Edit Homestead config: `nano ~/.homestead/Homestead.yaml`, 
 - Within the file, add `type: "nfs"` to `folders`
 
